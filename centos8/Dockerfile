@@ -16,6 +16,8 @@ RUN set -x \
 	&& yum -y install \
 		wget \
 		ca-certificates \
+		libstdc++.so.6 \
+		zlib* \
 	&& mkdir -p "${STEAMAPPDIR}" \
 	# Add entry script
 	&& wget --max-redirect=30 "${DLURL}/master/etc/entry.sh" -O "${HOMEDIR}/entry.sh" \
