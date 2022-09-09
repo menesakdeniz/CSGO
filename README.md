@@ -1,8 +1,9 @@
-[![](https://img.shields.io/codacy/grade/1a72f69b97bc46cfaec6cb77819beb66)](https://hub.docker.com/r/cm2network/csgo/) [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/cm2network/csgo)](https://hub.docker.com/r/cm2network/csgo/) [![Docker Stars](https://img.shields.io/docker/stars/cm2network/csgo.svg)](https://hub.docker.com/r/cm2network/csgo/) [![Docker Pulls](https://img.shields.io/docker/pulls/cm2network/csgo.svg)](https://hub.docker.com/r/cm2network/csgo/) [![](https://img.shields.io/docker/image-size/cm2network/csgo)](https://img.shields.io/docker/image-size/cm2network/csgo) [![Discord](https://img.shields.io/discord/747067734029893653)](https://discord.gg/7ntmAwM)
+# This is the centos 8 version of [(*CM2Walki's csgo*)](https://github.com/CM2Walki/CSGO)
+
 # Supported tags and respective `Dockerfile` links
--	[`base`, `latest` (*bullseye/Dockerfile*)](https://github.com/CM2Walki/CSGO/blob/master/bullseye/Dockerfile)
--	[`metamod` (*bullseye-metamod/Dockerfile*)](https://github.com/CM2Walki/CSGO/blob/master/bullseye-metamod/Dockerfile)
--	[`sourcemod` (*bullseye-sourcemod/Dockerfile*)](https://github.com/CM2Walki/CSGO/blob/master/bullseye-sourcemod/Dockerfile)
+-	[`base`, `latest` (*centos8/Dockerfile*)](https://github.com/menesakdeniz/CSGO/blob/master/centos8/Dockerfile)
+-	[`metamod` (*centos8-metamod/Dockerfile*)](https://github.com/menesakdeniz/CSGO/blob/master/centos8-metamod/Dockerfile)
+-	[`sourcemod` (*centos8-sourcemod/Dockerfile*)](https://github.com/menesakdeniz/CSGO/blob/master/centos8-sourcemod/Dockerfile)
 
 # What is Counter-Strike: Global Offensive?
 Counter-Strike: Global Offensive (CS: GO) expands upon the team-based action gameplay that it pioneered when it was launched 19 years ago. CS: GO features new maps, characters, weapons, and game modes, and delivers updated versions of the classic CS content (de_dust2, etc.).
@@ -85,6 +86,3 @@ This is a specialized image. It contains the plugin environment [Metamod:Source]
 
 ## `csgo:sourcemod`
 This is another specialized image. It contains both [Metamod:Source](https://www.sourcemm.net) and the popular server plugin [SourceMod](https://www.sourcemod.net) which can be found in the addons directory. [SourceMod](https://www.sourcemod.net) supports a wide variety of additional plugins that can be found [here](https://www.sourcemod.net/plugins.php).
-
-# Contributors
-[![Contributors Display](https://badges.pufler.dev/contributors/CM2Walki/csgo?size=50&padding=5&bots=false)](https://github.com/CM2Walki/csgo/graphs/contributors)
